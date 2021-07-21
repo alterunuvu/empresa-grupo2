@@ -1,9 +1,13 @@
 .contenedor1 {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     margin: 10px 40px;
     border-radius: 15px;
     background-color: aqua;
+    width: 500px;
+    height: 100px;
+    gap: 5px;
+    text-align: center;
 }
 
 .contenedor2 {
@@ -21,22 +25,24 @@
 
 .subContenedorDerecha{
     background-color: forestgreen;
-    margin: 10px 25px;
+    margin: 10px 25px 10px 1px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .subContenedorIzquierda{
     background-color: forestgreen;
-    margin: 10px 25px;
+    margin: 10px 1px 10px 30px;
     border-radius: 15px;
+    justify-content: center;
+    align-items: center;
 }
-
-
 
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
