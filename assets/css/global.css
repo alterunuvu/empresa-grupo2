@@ -1,0 +1,45 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(9, 62, 177, 0.548);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: burlywood;
+}
+
+.container-contacto {
+    padding: 50px;
+}
+
+.container-ubicacion {
+    padding: 50px;
+}
+
+.container-redes-sociales {
+    padding: 50px;
+}
+
+.container-redes-sociales img {
+    width: 200px;
+    border-radius: 30px;
+}
+
+.conatiner-sugerencias {
+    padding: 50px;
+}
+
+.conatiner-sugerencias input {
+    height: 10px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.boton-sugerencias {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(9, 62, 177, 0.548) 3px 4px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: burlywood;
+    background-color: darkblue;
+}
